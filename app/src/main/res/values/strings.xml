@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">New telegram task</string>
+    <string name="account">Account</string>
+    <string name="_20123456789">+20123456789</string>
+    <string name="edit_phone_number">Tap to change phone number</string>
+    <string name="subscribers">814 subscribers</string>
+    <string name="the_chance">The chance</string>
+    <string name="chat_settings">Chat Settings</string>
+    <string name="privacy_and_security">Privacy and Security</string>
+    <string name="notification_and_sounds">Notification and Sounds</string>
+    <string name="data_and_storage">Data and Storage</string>
+    <string name="power_saving">Power Saving</string>
+    <string name="chat_folders">Chat Folders</string>
+    <string name="devices">Devices</string>
+    <string name="none">None</string>
+    <string name="bio">Bio</string>
+    <string name="username">Username</string>
+    <string name="bio_details">Add a few words about yourself</string>
+    <string name="language">Language</string>
+    <string name="help">Help</string>
+    <string name="ask_a_question">Ask a Question</string>
+    <string name="telegram_faq">Telegram FAQ</string>
+    <string name="privacy_police">Privacy Police</string>
 </resources>

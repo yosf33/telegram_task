@@ -111,7 +111,7 @@
         app:constraintSetStart="@+id/start">
         <OnSwipe
         app:touchAnchorId="@id/imageView"
-        app:dragDirection="dragUp"/>
+        app:dragDirection="dragUp" />
 
 
     </Transition>
