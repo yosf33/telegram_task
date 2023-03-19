@@ -92,6 +92,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         >
         <LinearLayout
+            android:id="@+id/linear"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -358,17 +359,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/small_margin"
-                    android:paddingVertical="@dimen/normal_text_size"
+                    android:paddingVertical="@dimen/medium_padding"
                     android:textSize="@dimen/normal_text_size"
                     android:text="@string/privacy_police"
                     android:textColor="@color/white"
                     android:drawableLeft="@drawable/privacy"
-                    android:drawablePadding="@dimen/medium_padding"/>
-
-
-
-
-
+                    android:drawablePadding="@dimen/medium_padding" />
             </LinearLayout>
 
 
