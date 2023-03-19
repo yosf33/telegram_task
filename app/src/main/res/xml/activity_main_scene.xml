@@ -9,6 +9,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/scroll_view"
             />
         <Constraint android:id="@+id/subscribers"
             android:layout_width="match_parent"
@@ -107,8 +108,10 @@
     </ConstraintSet>
 
     <Transition
+        app:autoTransition="animateToEnd"
         app:constraintSetEnd="@id/end"
-        app:constraintSetStart="@+id/start">
+        app:constraintSetStart="@+id/start"
+        app:duration="4000">
         <OnSwipe
         app:touchAnchorId="@id/imageView"
         app:dragDirection="dragDown" />

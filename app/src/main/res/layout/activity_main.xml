@@ -14,7 +14,7 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="280dp"
-        android:scaleType="fitXY"
+        android:scaleType="fitCenter"
         android:src="@drawable/profile_img"
         />
 
@@ -87,14 +87,15 @@
         android:id="@+id/scroll_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintTop_toBottomOf="@id/camera"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         >
         <LinearLayout
             android:id="@+id/linear"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="center_horizontal">
             <LinearLayout
@@ -294,7 +295,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Endglish"
+                        android:text="English"
                         android:layout_marginEnd="@dimen/medium_margin"
                         android:gravity="end"
                         android:textSize="@dimen/normal_text_size"
@@ -365,9 +366,15 @@
                     android:textColor="@color/white"
                     android:drawableLeft="@drawable/privacy"
                     android:drawablePadding="@dimen/medium_padding" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:paddingBottom="8dp"
+                    android:layout_marginStart="@dimen/small_margin"
+                    android:text="@string/telegram_bottom_text"
+                    android:textColor="@color/gray"/>
             </LinearLayout>
-
-
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>

@@ -21,4 +21,5 @@
     <string name="ask_a_question">Ask a Question</string>
     <string name="telegram_faq">Telegram FAQ</string>
     <string name="privacy_police">Privacy Police</string>
+    <string name="telegram_bottom_text">Telegram for Android v9.5.2 (3208) store bundled arm64-v8a</string>
 </resources>
