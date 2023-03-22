@@ -108,10 +108,9 @@
     </ConstraintSet>
 
     <Transition
-        app:autoTransition="animateToEnd"
         app:constraintSetEnd="@id/end"
         app:constraintSetStart="@+id/start"
-        app:duration="4000">
+        >
         <OnSwipe
         app:touchAnchorId="@id/imageView"
         app:dragDirection="dragDown" />
